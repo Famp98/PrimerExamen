@@ -23,12 +23,15 @@ namespace PrimerParcialAbril.Models
         public int FriendId { get; set; }
 
         [Required]
+        [Display(Name="Nombre completo")]
         public string Name  { get; set; }
 
         [Required]
+        [Display(Name="Tipo")]
         public FriendType Type { get; set; }
-
+        [Display(Name="Apodo")]
         public string Nickname { get; set; }
+        [Display(Name = "Cumpleaños")]
         public DateTime BirthDdate { get; set; }
 
     }
