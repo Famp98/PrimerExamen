@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace PrimerParcialAbril
+namespace Apiparcial.Models
 {
     public class DataContext:DbContext
     {
@@ -13,6 +13,6 @@ namespace PrimerParcialAbril
 
         }
 
-        public System.Data.Entity.DbSet<PrimerParcialAbril.Models.FabioMurguiaFriend> FabioMurguiaFriends { get; set; }
+        public System.Data.Entity.DbSet<Apiparcial.Models.FabioMurguiaFriend> FabioMurguiaFriends { get; set; }
     }
 }
